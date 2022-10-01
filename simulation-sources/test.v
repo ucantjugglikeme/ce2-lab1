@@ -14,8 +14,6 @@ initial begin
     R_I = 0;
     dataIn = 0;
     #20;
-    
-    reset = 0;
 end
 
 always #10 clk <= ~clk;
